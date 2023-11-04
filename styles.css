@@ -22,6 +22,7 @@ body {
     border-radius: 50%;
     color: black;
     overflow: hidden;
+    animation: pie-size 500ms 500ms ease forwards;
 }
 
 .pie-wrap .entry{
@@ -193,4 +194,13 @@ input[type="radio"]{
 }
 .other-text{
     border-color:  skyblue;
+}
+@keyframes pie-size {
+    from{
+      width:0px;
+    }
+    to{
+      width: 400px;
+      height: 400px;
+    }
 }
