@@ -22,3 +22,25 @@ body {
     border-radius: 50%;
     color: black;
 }
+
+.pie-wrap .entry{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* *the individual entries* */
+
+.sky-blue{
+    background-color: lightskyblue;
+    height:50%;
+    width: 50%;
+    display: block;
+}
+
+.light-yellow{
+    background-color: lightyellow;
+    height:50%;
+    width: 50%;
+}
