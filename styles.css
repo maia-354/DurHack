@@ -176,3 +176,21 @@ input[type="radio"]{
 .groceries-key:checked ~ .groceries-text, .accomodation-key:checked ~ .accomodation-text, .goingout-key:checked ~ .goingout-text,  .transport-key:checked ~ .transport-text, .alco-key:checked ~ .alco-text, .other-key:checked ~ .other-text{
     display: block;
 }
+.groceries-text{
+    border-color: black;
+}
+.accomodation-text{
+    border-color:  pink;
+}
+.goingout-text{
+    border-color:  purple;
+}
+.transport-text{
+    border-color:  limegreen;
+}
+.alco-text{
+    border-color:  wheat;
+}
+.other-text{
+    border-color:  skyblue;
+}
