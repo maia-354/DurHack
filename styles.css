@@ -140,22 +140,22 @@ body {
 input[type="radio"]{
     display: none;
 }
-.rice-label{
+.groceries-label{
     background-color: lightyellow;
 }
-.beans-label{
+.accomodation-label{
     background-color: pink;
 }
-.plantain-label{
+.goingout-label{
     background-color: purple;
     color: white;
 }
-.potato-label{
+.transport-label{
     background-color: limegreen;
 }
-.yam-label{
+.alco-label{
     background-color: wheat;
 }
-.pasta-label{
+.other-label{
     background-color: skyblue;
 }
