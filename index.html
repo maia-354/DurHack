@@ -7,8 +7,74 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>
-        This is the heading
-    </h1>
+    <h1 class="heading">This Month</h1>
+
+    <h1 class="heading">Spending Breakdown</h1>
+    
+    <div class="wrapper">
+        <div class="pie-wrap">
+            <div class="light-yellow entry">
+                <p>25%</p>
+                <p class="entry-value">Groceries</p>
+            </div>
+            
+            <div class="sky-blue entry">
+                <p>25%</p>
+                <p class="entry-value">Accomodation</p>
+            </div>
+            
+            <div class="pink entry">
+                <p>12.5%</p>
+                <p class="entry-value">Going out</p>
+            </div>
+            
+            <div class="purple entry">
+                <p> 12.5%</p>
+                <p class="entry-value">Transport</p>
+            </div>
+            
+            <div class="green entry">
+                <p> 12.5%</p>
+                <p class="entry-value">Alco</p>
+            </div>
+            
+            <div class="wheat entry">
+                <p> 12.5%</p>
+                <p class="entry-value">Other</p>
+            </div>
+        
+        </div>
+
+        <div class="key-wrap">
+            <!--Pie chart keys  -->
+            <input type="radio" id="groceries" name="values" class="groceries"/>
+            <label for="groceries" class="groceries-label"> Groceries</label>
+
+            <input type="radio" name="values" id="accomodation" class="accomodation"/>
+            <label for="accomodation" class="accomodation-label"> Accomodation</label>
+
+            <input type="radio" name="values" id="goingout" class="goingout"/>
+            <label for="goingout" class="goingout-label"> Going out</label>
+
+            <input type="radio" name="values" id="transport" class="transport"/>
+            <label for="transport" class="transport-label"> Transport</label>
+
+            <input type="radio" name="values" id="alco" class="alco"/>
+            <label for="alco" class="alco-label"> Alco</label>
+
+            <input type="radio" name="values" id="other" class="pasta-key"/>
+            <label for="other" class="other-label"> Other</label>
+            
+            <p class="groceries text">25% of your budget went to Groceries</p>
+            <p class="accomodation text">12.5% of your budget went to Accomodation</p>
+            <p class="goingout text">12.5% of your budget went to Going out</p>
+            <p class="transport text">12.5% of your budget went to Transport</p>
+            <p class="alco text">12.5% of your budget went to Alcohol</p>
+            <p class="other text">25% of your budget went to Other expenses</p>
+        
+        </div>
+   
+    </div>
+
 </body>
 </html>
