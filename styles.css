@@ -140,3 +140,22 @@ body {
 input[type="radio"]{
     display: none;
 }
+.rice-label{
+    background-color: lightyellow;
+}
+.beans-label{
+    background-color: pink;
+}
+.plantain-label{
+    background-color: purple;
+    color: white;
+}
+.potato-label{
+    background-color: limegreen;
+}
+.yam-label{
+    background-color: wheat;
+}
+.pasta-label{
+    background-color: skyblue;
+}
