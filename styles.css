@@ -136,4 +136,7 @@ body {
     padding: 10px 15px;
     cursor: pointer;
     margin-bottom: 8px;
-    }
+}
+input[type="radio"]{
+    display: none;
+}
