@@ -21,6 +21,7 @@ body {
     position: relative;
     border-radius: 50%;
     color: black;
+    overflow: hidden;
 }
 
 .pie-wrap .entry{
