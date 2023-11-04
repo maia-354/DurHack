@@ -159,3 +159,20 @@ input[type="radio"]{
 .other-label{
     background-color: skyblue;
 }
+.text{
+    display: none;
+    margin-left: -50px;
+    position: absolute;
+    margin-top: 50px;
+    font-size: 20px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-bottom: 5px solid ;
+    border-top: 5px solid ;
+}
+.key-wrap label:active{
+    opacity: .5;
+}
+.groceries-key:checked ~ .groceries-text, .accomodation-key:checked ~ .accomodation-text, .goingout-key:checked ~ .goingout-text,  .transport-key:checked ~ .transport-text, .alco-key:checked ~ .alco-text, .other-key:checked ~ .other-text{
+    display: block;
+}
