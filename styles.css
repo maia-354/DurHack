@@ -115,3 +115,16 @@ body {
 .pie-wrap .pink p:first-child, .pie-wrap .wheat p:first-child{
     top: 100px;
 }
+.entry .entry-value{
+    display: none;
+    transition: all 500ms linear;
+}
+.entry:hover .entry-value{
+    display: block;
+}
+.entry{
+    transition: all 500ms linear ;
+}
+.entry:hover{
+    filter: invert();
+}
