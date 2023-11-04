@@ -128,3 +128,12 @@ body {
 .entry:hover{
     filter: invert();
 }
+.key-wrap label{
+    display: block;
+    border: 1px solid;
+    width: 50px;
+    text-align: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-bottom: 8px;
+    }
