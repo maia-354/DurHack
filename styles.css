@@ -2,8 +2,23 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: cadetblue;
 }
-h1 {
+.heading {
     text-align: center;
     margin-top: 50px;
     color: teal
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pie-wrap{
+    border: 2px solid lightgrey;
+    width: 400px;
+    height: 400px;
+    margin: 10% 50px;
+    position: relative;
+    border-radius: 50%;
+    color: black;
 }
